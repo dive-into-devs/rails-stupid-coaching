@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+ #yellowback{
+  background-color: #ffffd3;
+ }

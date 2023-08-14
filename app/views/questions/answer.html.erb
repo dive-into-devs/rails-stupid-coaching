@@ -1,0 +1,13 @@
+<div class="d-flex flex-column justify-content-start align-items-start gap-5">
+<b class="h2"> Stupid Coaching </b>
+<div class="border-left bg-light w-50 gap-5 p-3 d-flex flex-column">
+  <p class="h3"><%= @question %></p>
+  <p>You</p>
+</div>
+<div class="border-left w-50 gap-5 p-3 d-flex flex-column" id="yellowback">
+<p class="h3"><%= @answer %></p>
+<p>Your Coach</p>
+</div>
+
+<%= link_to "Ask a new question", "/ask" %>
+</div>
